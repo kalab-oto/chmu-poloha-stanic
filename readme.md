@@ -1,6 +1,6 @@
 Skripty pro stažení polohy meteorologických stanic [Českého hydrometeorologického ústavu](http://portal.chmi.cz/). Tato data lze spárovat z daty naměřených hodnot na jednotlivých stanicích, které ČHMÚ nyní poskytuje veřejnosti ([Počasí, věc veřejná. Meteorologové po letech sporů začali poskytovat historické záznamy ](https://www.irozhlas.cz/zpravy-domov/chmu-pocasi-data-historicke-zaznamy-o-pocasi-pravo-na-informace_2003260832_elev). Jak tato data vypadají, a jak o ně požádat najdete na [https://github.com/datastory/chmu-historicka-data](https://github.com/datastory/chmu-historicka-data).
 
-## Vytvoření `GPKG` pomocí R nebo Python
+## Vytvoření `GPKG` pomocí Python nebo R
 
 - `chmu_stanice.py`
 ```
