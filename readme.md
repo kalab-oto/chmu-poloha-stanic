@@ -12,8 +12,8 @@ nebo
 - `chmu_stanice.R`
 ```
 Rscript chmu_stanice.R
-
 ```
+
 Skript vytvoří dva soubory [geopackage](https://www.geopackage.org/) - body podle typu stanice `stanice.gpkg` a podle měřených prvků `staniceElement.gpkg`. Dále se vytvoří soubor s metadaty `stanice_info.txt`, kde je legenda ke stanicím. 
 
 ## Načtení bodů do QGIS pomocí Python konzole
