@@ -1,0 +1,42 @@
+cAMS = "Automatizovaná meteorologická staniceObsluhu stanice zajišťuje profesionální meteorolog. Provoz a metodické řízení zajišťuje odbor profesionální staniční sítě (OPSS), odbor letecké meteorologie (OLM) ČHMÚ v Praze, popř. jsou pod správou Armády ČR (A ČR) nebo Ústavu fyziky atmosféry (ÚFA AV ČR). Program klimatologických pozorování je stejný jako u automatizovaných klimatologických stanic, ale jejich hlavním úkolem jsou synoptická pozorování a měření, která jsou prováděna každou hodinu a jsou okamžitě předávána v kódované zprávě SYNOP do centra v Praze-Komořanech. Data z některých synoptických stanic jsou poté součástí celosvětového systému výměny meteorologických dat. Kromě prvků, které jsou měřeny a pozorovány na klimatologických stanicích, se v synoptickém pozorování sleduje i výška a druh oblačnosti, atmosférický tlak vzduchu, tlaková tendence, dohlednost, podrobněji se rozlišuje typ padajících srážek apod."
+
+AMS1 = "Automatizovaná meteorologická stanice kombinovaného typuObsluhu stanice zajišťuje profesionální meteorolog ve stanovených denních hodinách. Provoz a metodické řízení zajišťuje odbor profesionální staniční sítě (OPSS). Program klimatologických pozorování je stejný jako u automatizovaných klimatologických stanic, ale jejich hlavním úkolem jsou synoptická pozorování a měření, která jsou prováděna každou hodinu a jsou okamžitě předávána v kódované zprávě SYNOP do centra v Praze-Komořanech. V nočních hodinách je měření plně automatizováno. Data z některých synoptických stanic jsou poté součástí celosvětového systému výměny meteorologických dat. Kromě prvků, které jsou měřeny a pozorovány na klimatologických stanicích, se v synoptickém pozorování sleduje i výška a druh oblačnosti, atmosférický tlak vzduchu, tlaková tendence, dohlednost, podrobněji se rozlišuje typ padajících srážek apod."
+
+AMS2 = "Automatizovaná meteorologická stanice bez obsluhyStanice je plně automatizována, obsluha ve vybraných termínech pouze doplňuje automatizovaná měření a zajišťuje havarijní zásahy. Provoz a metodické řízení zajišťuje odbor profesionální staniční sítě (OPSS). Program klimatologických pozorování je omezen pouze na automatizovaná měření. Hlavním úkolem jsou plně automatizovaná synoptická měření, která jsou prováděna každou hodinu a jsou okamžitě předávána v kódované zprávě SYNOP do centra v Praze-Komořanech."
+
+AMS3 = "Automatizovaná meteorologická stanice bez obsluhyStanice je plně automatizována, vzdálená obsluha pouze zajišťuje havarijní zásahy. Provoz a metodické řízení zajišťuje odbor profesionální staniční sítě (OPSS). Program klimatologických pozorování je omezen pouze na automatizovaná měření. Hlavním úkolem jsou plně automatizovaná synoptická měření, která jsou prováděna každou hodinu a jsou okamžitě předávána v kódované zprávě SYNOP do centra v Praze-Komořanech."
+
+AKS1 = "Automatizovaná klimatologická stanice I. typuTyto stanice měří všechny meteorologické prvky jako stanice manuální. Měření se však provádí pomocí automatických přístrojů (čidel) s intervalem záznamu 10 minut, u srážek s intervalem záznamu 1 minuta. Stanice jsou vybaveny datovým přenosem. Pozorovatel doplňuje automatizovaná měření manuálním pozorováním (např. množství oblačnosti, stav počasí, stav půdy, apod.), sleduje a zapisuje meteorologické jevy a v zimním období měří sněhové charakteristiky klasickými přístroji. Všechny informace jsou ve stanovených intervalech přidávány k výsledkům automatizovaných měření a předávány do centra. Stanice jsou v majetku ČHMÚ."
+
+AKS = "Automatizované klimatologická staniceDoplňkové stanice s neúplnou nebo speciální kombinací měření pomocí automatických přístrojů s intervalem záznamu 10 minut, u srážek s intervalem záznamu 1 minuta. Stanice jsou vybaveny datovým přenosem a zpravidla nejsou v majetku ČHMÚ."
+
+AKS2 = "Automatizovaná klimatologická stanice II. typuTyto stanice měří všechny meteorologické prvky jako stanice manuální. Měření se však provádí pomocí automatických přístrojů (čidel) s intervalem záznamu 10 minut, u srážek s intervalem záznamu 1 minuta. Stanice jsou vybaveny datovým přenosem. Pozorovatel zajišťuje manuálním pozorování stejně jako na manuálních klimatologických stanicích (např. množství oblačnosti, stav počasí, stav půdy, apod.), sleduje a zapisuje meteorologické jevy a v zimním období měří sněhové charakteristiky klasickými přístroji. Výsledky manuálních pozorování jsou zapisovány do klimatologických výkazů, popř. vkládány do pořizovacího programu a zasílány po skončení měsíce poštou nebo elektronicky. Stanice jsou v majetku ČHMÚ."
+
+AKS3 = "Automatizovaná klimatologická stanice III. typuTyto stanice měří meteorologické prvky jako stanice manuální, neměří charakteristiky větru. Měření se však provádí pomocí automatických přístrojů (čidel) s intervalem záznamu 10 minut, u srážek s intervalem záznamu 1 minuta. Stanice jsou vybaveny datovým přenosem. Pozorovatel zajišťuje manuálním pozorování vybraných prvků. Výsledky manuálních pozorování jsou zapisovány do klimatologických výkazů, popř. vkládány do pořizovacího programu a zasílány po skončení měsíce poštou nebo elektronicky. Stanice jsou v majetku ČHMÚ."
+
+AKS4 = "Automatizovaná klimatologická stanice IV. typuStanice nemá pozorovatele, který by měřil a pozoroval manuální prvky (může mít stožár s větrem, ale nemusí, může mít jen teplotní čidla, nebo jen automatický srážkoměr a slunoměr, nebo jiná kombinace, která stanici odlišuje od srážkoměrné stanice). Stanice jsou v majetku ČHMÚ."
+
+MKS = "Manuální klimatologická stanicePozorovatel provádí měření základních meteorologických prvků (teplota vzduchu, max. a min. teplota vzduchu,přízemní min. teplota vzduchu, relativní vlhkost vzduchu, směr a rychlost větru) ve třech klimatologických termínech (7, 14, 21 hodin SEČ). Ve stejných termínech pozorovatel zaznamenává oblačnost, stav počasí a stav půdy. Pozorovatel na stanici měří i denní úhrn srážek a sněhové charakteristiky, tj. výšku nového sněhu, celkovou výšku sněhové pokrývky a vodní hodnotu celkové sněhové pokrývky. Tato měření jsou prováděny v ranním klimatologickém termínu (7 hodin SEČ). V průběhu celého dne pozorovatel zaznamenává výskyt a průběh meteorologických jevů. Na vybraných stanicích se dále měří také sluneční svit, teplota půdy, popř. výpar nebo atmosférický tlak vzduchu. Data jsou podobně jako u srážkoměrných stanic zapisována do klimatologických výkazů, popř. vkládána do pořizovacího programu a zasílána po skončení měsíce poštou nebo elektronicky. Stanice jsou ve správě ČHMÚ."
+
+ASS = "Automatizovaná srážkoměrná staniceStanice jsou vybaveny automatickým srážkoměrem a naměřené hodnoty jsou přenášeny do centrálního počítače na pobočce. Interval záznamu je 1 minuta, přenos dat probíhá každých 10 minut. Měření sněhových charakteristik a pozorování meteorologických jevů se provádí stejně jako u stanic manuálních. Stanice"
+
+MSS = "Manuální srážkoměrná stanice</h4> Pozorovatel na stanici měří jen denní úhrn srážek a sněhové charakteristiky, tj. výšku nového sněhu, celkovou výšku sněhové pokrývky a vodní hodnotu celkové sněhové pokrývky.Měření je prováděno v ranním klimatologickém termínu (7 hodin středoevropského času). V průběhu celého dne pozorovatel zaznamenávávýskyt a průběh meteorologických jevů. Data jsou zapisována do měsíčních srážkoměrných výkazů a zasílána po skončení měsíce poštou nebo pořizována ve speciální aplikaci a datové soubory poté zasílány elektronicky na příslušnou pobočku ČHMÚ. Stanice jsou ve správě ČHMÚ."
+
+TOTAL = "TotalizátorZvláštní typ srážkoměru určený k měření úhrnu srážek za letní a zimní období. Zpravidla se instaluje na odlehlých nebo těžko dostupných místech. Srážky se zachycují do nádoby dostatečného objemu, do které se na začátku měření nalije určité množství nemrznoucího roztoku. Přidaná vhodná látka, např. olej, zabraňuje výparu. Úhrn srážek se určí z přírůstku celkového objemu roztoku v nádobě za dobu měření. Vypočtený úhrn je pomocí referenčních srážkoměrných stanic přepočítáván na měsíční úhrny srážek. Stanice jsou ve správě ČHMÚ."
+
+ASNS = "Automatizovaná sněhoměrná staniceAutomatizovaná sněhoměrná stanice vybavená automatickým měřením výšky sněhové pokrývky a/nebo vodní hodnoty sněhu."
+
+
+T = "T - teplota vzduchu [°C]"
+
+SRA = "SRA - úhrn srážek [mm]"
+
+SCE = "SCE - výška sněhu  [cm]"
+
+SCEa= "SCEa - výška sněhu měřená automatickým čidlem [cm] "
+
+SSV= "SSV - denní úhrn slunečního svitu [hod]"
+
+P="P - tlak vzduchu [hPa]"
+
+F="D/F - směr a rychlost větru [stupně], [m/s]"
