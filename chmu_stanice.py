@@ -23,7 +23,7 @@ meta = urlopen('http://portal.chmi.cz/files/portal/docs/poboc/OS/stanice/js/mess
 
 for line in range(0,len(meta)):
     meta[line] = str(meta[line],'utf-8')
-    meta[line] = meta[line][8:]
+    meta[line] = meta[line].replace('var desc','') 
     meta[line] = meta[line].replace('<H4>','') 
     meta[line] = meta[line].replace('</H4>','') 
     meta[line] = meta[line].replace(';','') 
