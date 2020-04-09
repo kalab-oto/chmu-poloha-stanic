@@ -1,4 +1,7 @@
 library(sf)
+
+dir.create("output", showWarnings = FALSE)
+
 js_names <- c("staniceElement","stanice")
 
 for (file_nam in js_names){
@@ -12,7 +15,7 @@ for (file_nam in js_names){
         geojs <- strsplit(str[l],"=")[[1]][2]
         points <- st_read(geojs)
         points[["ELEVATION"]] <- as.double(points[["ELEVATION"]])
-        st_write(points, paste0(file_nam,".gpkg"), lay_nam, update = TRUE)
+        st_write(points, file.path("output",paste0(file_nam,".gpkg")), lay_nam, update = TRUE)
         }
     }
 
@@ -26,5 +29,5 @@ for (line in 1:length(meta)){
 }
 
 meta <- paste(paste(meta,collapse="\n\n"))
-write(meta, "stanice_info.txt")
+write(meta, file.path("output","stanice_info.txt"))
 
