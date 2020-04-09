@@ -2,6 +2,9 @@ library(sf)
 js_names <- c("staniceElement","stanice")
 
 for (file_nam in js_names){
+    if (paste0(file_nam,".gpkg") %in% list.files()){
+        unlink(paste0(file_nam,".gpkg"))
+    }
     str <- readLines(url(paste0("http://portal.chmi.cz/files/portal/docs/poboc/OS/stanice/js/",file_nam,".js")))
     for (l in 3:length(str)-1){
         lay_nam <- strsplit(str[l],"=")[[1]][1]
