@@ -18,7 +18,7 @@ for file_nam in js_names:
         tmp = gpd.read_file(geojs)
         points = points.append(tmp)
     points.to_csv('./output/' + file_nam + '.csv', encoding='utf-8', index=False)
-        
+
 meta = urlopen('http://portal.chmi.cz/files/portal/docs/poboc/OS/stanice/js/messages.js').readlines()
 
 for line in range(0,len(meta)):
