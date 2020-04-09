@@ -8,6 +8,7 @@ for (file_nam in js_names){
         lay_nam <- substring(lay_nam,5)
         geojs <- strsplit(str[l],"=")[[1]][2]
         points <- st_read(geojs)
+        points[["ELEVATION"]] <- as.double(points[["ELEVATION"]])
         st_write(points, paste0(file_nam,".gpkg"), lay_nam, update = TRUE)
         }
     }
